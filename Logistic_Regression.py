@@ -1,5 +1,6 @@
 import numpy as np
 from sigmoid import sigmoid
+from Binary_cross_entropy import BCE
 
 class Logistic_Regression:
     def __init__(self,epochs,lr=0.01,):
@@ -13,7 +14,7 @@ class Logistic_Regression:
 
         y_hat=sigmoid(X@self.weights)
 
-        
+
 
 
 
