@@ -9,7 +9,6 @@ class KNN:
     def euclidean(self,v1,v2):
         return np.sqrt(np.sum((v1-v2)**2))
 
-
     def manhattan(self,v1,v2):
         return np.sum(np.abs(v1-v2))
 
